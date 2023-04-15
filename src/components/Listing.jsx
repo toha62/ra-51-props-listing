@@ -1,10 +1,7 @@
 import Item from './Item'
 
 export default function Listing({ items = [] }) {
-  // items.map(item => console.log(item.listing_id, item.url));
-  // return (
-  //   <div></div>
-  // );
+
   return (
     <div className="item-list">
       {items.map(item =>
